@@ -2831,6 +2831,24 @@ torchvision = ">=0.18.0,<0.19.0"
 xxhash = ">=3.4.1,<4.0.0"
 
 [[package]]
+name = "safe-ds-datasets"
+version = "0.18.0"
+description = "Ready-to-use datasets for the Safe-DS Python library."
+optional = false
+python-versions = "^3.11,<3.13"
+files = []
+develop = false
+
+[package.dependencies]
+safe-ds = ">0.24.0"
+
+[package.source]
+type = "git"
+url = "https://github.com/Safe-DS/Datasets.git"
+reference = "add-mnist-datasets"
+resolved_reference = "087babeedb5476c75dff1a669d3847e0590ca295"
+
+[[package]]
 name = "scikit-learn"
 version = "1.4.2"
 description = "A set of python modules for machine learning and data mining"
@@ -3523,4 +3541,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11, <=3.12"
-content-hash = "f41741125e8fe115eeca5214e48678fe0185247c91167865447b01138eee0d77"
+content-hash = "e4cceb9e9376f5d9d5fc9fb3c1ca271708ae0a7ce3dd82cbea6ca3aea771c9d1"
