@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "safeds-cnn-examples"
+version = "0.1.0"
+description = ""
+authors = ["Alexander Gréus <alexgreus51@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11, <=3.12"
+safe-ds = "^0.25.0"
+torch = {version = "^2.3.0+cu121", source = "torch_cuda"}
+torchvision = {version = "^0.18.0+cu121", source = "torch_cuda"}
+jupyter = "^1.0.0"
+torchinfo = "^1.8.0"
+
+
+[[tool.poetry.source]]
+name = "torch_cuda"
+url = "https://download.pytorch.org/whl/cu121"
+priority = "explicit"
+
+
+[tool.poetry.group.dev.dependencies]
+torch = {version = "^2.3.0+cu121", source = "torch_cuda"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
