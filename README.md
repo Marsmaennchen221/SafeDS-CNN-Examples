@@ -1,5 +1,7 @@
 ## Kaggle projects for Image Classification:
 
+- [fashionmnist](https://www.kaggle.com/datasets/zalando-research/fashionmnist)
+- [chinese-mnist](https://www.kaggle.com/datasets/gpreda/chinese-mnist)
 - [basicshapes](https://www.kaggle.com/datasets/cactus3/basicshapes)
 - [apples-or-tomatoes-image-classification](https://www.kaggle.com/datasets/samuelcortinhas/apples-or-tomatoes-image-classification)
 - [concrete-and-pavement-crack-images](https://www.kaggle.com/datasets/oluwaseunad/concrete-and-pavement-crack-images)
